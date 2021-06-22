@@ -2,7 +2,6 @@
   max-width: 800px;
   color: #1c1f23;
   font-family: "Exo 2", sans-serif;
-  text-align: center;
 }
 
 h1 {
@@ -10,6 +9,7 @@ h1 {
   background: #907fa4;
   border-radius: 11px;
   padding: 20px;
+  text-align: center;
 }
 
 .fa-book-open {

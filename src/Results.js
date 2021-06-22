@@ -3,16 +3,19 @@ import Meaning from "./Meaning";
 import "./results.css";
 
 export default function Results(props) {
-  console.log(props.results);
   if (props.results) {
     return (
       <div>
-        <h2>{props.results.phonetics[0].text}</h2>
+        <h2>
+          <span className="word">{props.results.word}</span>
+          <br />
+          <span className="phonetics">{props.results.phonetics[0].text}</span>
+        </h2>
         <h4 className="meaning">
           {props.results.meanings.map(function (meaning, index) {
             return (
               <div key={index}>
-                <Meaning />
+                <Meaning meaning={meaning} />
               </div>
             );
           })}
