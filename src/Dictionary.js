@@ -2,30 +2,27 @@ import React, { useState } from "react";
 import "./dictionary.css";
 
 export default function Dictionary() {
-  let [definition, setDefinition] = useState(null);
+  let [keyword, setKeyword] = useState("");
 
   function searchWord(event) {
     event.preventDefault();
-    alert(`Searching for ${definition}`);
+    alert(`Searching for ${keyword}`);
   }
 
   function defineWord(event) {
-    setDefinition(event.target.value);
+    setKeyword(event.target.value);
   }
 
   return (
     <div className="dictionary">
-      <form
-        className="search-form row justify-content-center"
-        onSubmit={searchWord}
-      >
+      <form className="row justify-content-center" onSubmit={searchWord}>
         <div className="col-auto">
           <input
             type="search"
             placeholder="Dictionary"
             autoFocus="yes"
             autoComplete="yes"
-            className="form-control"
+            className="form-control search-form"
             onChange={defineWord}
           />
         </div>
