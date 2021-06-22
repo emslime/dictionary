@@ -1,20 +1,19 @@
 .container {
   max-width: 800px;
-  color: #151515;
-  font-family: "Comfortaa", cursive;
+  color: #1c1f23;
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
   margin-top: 30px;
-  font-weight: bold;
   background: #907fa4;
   border-radius: 11px;
   padding: 20px;
 }
 
 .fa-book-open {
-  font-size: 64px;
+  font-size: 58px;
 }
 
 main {
@@ -31,5 +30,5 @@ footer {
 
 .git-link,
 .emslime {
-  color: #151515;
+  color: #1c1f23;
 }
