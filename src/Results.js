@@ -10,6 +10,17 @@ export default function Results(props) {
           <span className="word">{props.results.word}</span>
           <br />
           <span className="phonetics">{props.results.phonetics[0].text}</span>
+          <br />
+          <span className="audio">
+            <a
+              href={props.results.phonetics[0].audio}
+              target="_blank"
+              rel="noreferrer"
+              className="audio-link"
+            >
+              <i class="fas fa-volume-up"></i>
+            </a>
+          </span>
         </h2>
         <h4 className="meaning">
           {props.results.meanings.map(function (meaning, index) {

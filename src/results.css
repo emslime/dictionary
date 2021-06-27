@@ -13,3 +13,16 @@ h2 {
   opacity: 0.7;
   font-size: 23px;
 }
+
+.audio {
+  font-size: 20px;
+}
+
+.audio-link {
+  color: #1c1f23;
+  text-decoration: none;
+}
+
+.audio-link:hover {
+  cursor: pointer;
+}
