@@ -17,6 +17,7 @@
 .example {
   font-size: 13px;
   opacity: 0.8;
+  line-height: 3;
 }
 
 .synonyms {

@@ -5,7 +5,7 @@ import "./results.css";
 export default function Results(props) {
   if (props.results) {
     return (
-      <div>
+      <div className="results">
         <h2>
           <span className="word">{props.results.word}</span>
           <br />
@@ -18,7 +18,7 @@ export default function Results(props) {
               rel="noreferrer"
               className="audio-link"
             >
-              <i class="fas fa-volume-up"></i>
+              <i className="fas fa-volume-up"></i>
             </a>
           </span>
         </h2>

@@ -12,7 +12,7 @@ function App() {
           </h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="flower" />
         </main>
         <footer>
           <a
