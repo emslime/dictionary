@@ -3,7 +3,10 @@
 }
 
 .badge {
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 9px;
   color: #eeeeee;
   margin: 3px;
+  background-color: #907fa4;
 }

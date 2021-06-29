@@ -1,5 +1,6 @@
 .container {
   max-width: 800px;
+  margin: 0 auto;
   color: #1c1f23;
   font-family: "Exo 2", sans-serif;
 }

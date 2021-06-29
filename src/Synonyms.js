@@ -8,7 +8,7 @@ export default function Synonyms(props) {
         {props.synonyms.map(function (synonym, index) {
           return (
             <span key={index}>
-              <span className="badge rounded-pill bg-dark">{synonym}</span>{" "}
+              <span className="badge rounded-pill">{synonym}</span>{" "}
             </span>
           );
         })}

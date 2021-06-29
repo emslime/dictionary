@@ -23,8 +23,3 @@ export default function Meaning(props) {
     </div>
   );
 }
-
-//<br />
-//<span className="synonyms">
-//<strong>similar:</strong> {definition.synonyms}
-//</span>
